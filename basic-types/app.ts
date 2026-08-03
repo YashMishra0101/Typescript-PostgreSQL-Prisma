@@ -1,6 +1,6 @@
 
 // ==============================
-// TypeScript Basic Types
+// TypeScript Basic Types (number,string,object,array,tuple,enum, union and Literal Types)
 // ==============================
 
 //>number
@@ -121,9 +121,7 @@
 
 //>Tuple
 
-//--A tuple is a "fixed-length" array where "each position" has a predefined type. 
-
-//-- While an array stores multiple values of the same type, there is no fixed length limit in the array.
+//--A tuple is a "fixed-length" array where "each position" has a predefined type. (While an array stores multiple values of the same type, there is no fixed length limit in the array)
 
 //Example 1
 // const user:[string,number]=["Yash",24];
@@ -135,7 +133,7 @@
 
 //>enum and union
 
-//--An enum (enumeration) is used to define a fixed set of named constant values but Today, many modern TypeScript projects don't use enums very often.instead they often use a union of string literals, union achieves a similar goal with less generated JavaScript.
+//--An enum (enumeration) is used to define a fixed set of named constant values but Today, many modern TypeScript projects don't use enums very often,instead they often use a union of string literals, union achieves a similar goal with Less Generated JavaScript.
 
 //enum example
 
@@ -154,5 +152,16 @@
 // type OrderStatus= "PENDING" | "PROCESSING" | "DELIVERED";
 
 // const orderStatus:OrderStatus="PENDING";
+
+// console.log(orderStatus);
+
+
+// //>Literal Types improve type safety by restricting variables to specific predefined values, preventing invalid values and typos (It's like union)
+
+//-- Whenever you write ( type Something = ... )  we are creating a Type Alias/Custom type
+
+// type OrderStatus = "PENDING" | "PROCESSING" | "DELIVERED";
+
+// const orderStatus:OrderStatus = "PROCESSING";
 
 // console.log(orderStatus);
