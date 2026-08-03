@@ -51,7 +51,7 @@
 
 
 //>void
-//--Void means the function completes successfully but does not return any value,means void is used for functions that perform an action and complete successfully without returning a value.
+//--Void means the function completes successfully but does not return any value, means void is used for functions that perform an action and complete successfully without returning a value.
 
 // Call Function
 //       │

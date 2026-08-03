@@ -133,7 +133,9 @@
 
 //>enum and union
 
-//--An enum (enumeration) is used to define a fixed set of named constant values but Today, many modern TypeScript projects don't use enums very often,instead they often use a union of string literals, union achieves a similar goal with Less Generated JavaScript.
+//--An enum (enumeration) is used to define a fixed set of named constant values but Today, many modern TypeScript projects don't use enums very often, instead we often use a union of string literals, union achieves a similar goal with Less Generated JavaScript.
+
+//--A Union Type allows a variable to store multiple possible types or values using the pipe "|"  operator.
 
 //enum example
 
