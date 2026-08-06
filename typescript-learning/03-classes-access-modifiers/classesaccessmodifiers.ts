@@ -106,8 +106,8 @@ console.log(macBook.price); */
 // Child Class   ✅
 // Outside Class ❌
 
-// private → Accessible only within the same class.
-// protected → Accessible within the same class and its child classes, but not from outside.
+//-- private → Accessible only within the same class.
+//-- protected → Accessible within the same class and its child classes, but not from outside.
 
 // class Employee {
 //   name: string;
@@ -132,7 +132,7 @@ console.log(macBook.price); */
 
 //>4) readonly
 // 
-//--readonly allows a property to be assigned a value only once. After that, it cannot be modified (we cannot modify it but we can access from anywher).
+//--readonly allows a property to be assigned a value only once. After that, it cannot be modified (we cannot modify it but we can access from anywhere).
 
 class User{
   readonly userId:number;
