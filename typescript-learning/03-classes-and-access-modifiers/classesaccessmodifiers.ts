@@ -134,21 +134,21 @@ console.log(macBook.price); */
 // 
 //--readonly allows a property to be assigned a value only once. After that, it cannot be modified (we cannot modify it but we can access from anywhere).
 
-class User{
-  readonly userId:number;
-  name:string;
+// class User{
+//   readonly userId:number;
+//   name:string;
 
-  constructor(userId:number, name:string){
-    this.userId=userId;
-    this.name=name;
-  }
-}
+//   constructor(userId:number, name:string){
+//     this.userId=userId;
+//     this.name=name;
+//   }
+// }
 
-const user=new User(1,"Yash Mishra");
+// const user=new User(1,"Yash Mishra");
 
-console.log(user);
+// console.log(user);
 
-user.name="Yash RK Mishra"
-// user.userId=2;
+// user.name="Yash RK Mishra"
+// // user.userId=2;
 
-console.log(user);
+// console.log(user);

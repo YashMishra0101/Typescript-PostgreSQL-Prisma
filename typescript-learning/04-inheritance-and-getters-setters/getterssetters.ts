@@ -20,7 +20,7 @@ But they should not access the private variable directly
 
 // const account=new BankAccount();
 
-// console.log(account.accountBalance); // We don't call them like normal functions with parentheses. we access or assign them like they're plain properties.
+// console.log(account.accountBalance); //-- We don't call them like normal functions with parentheses, we access or assign them like they're plain properties.
 
 //>Setter (set)
 
@@ -54,7 +54,7 @@ The balance should never become negative.
 
 // account.accountBalance = 100000;
 
-// console.log(account.accountBalance);
+// console.log(account.accountBalance); //-- We don't call them like normal functions with parentheses, we access or assign them like they're plain properties.
 
 
 /* 
