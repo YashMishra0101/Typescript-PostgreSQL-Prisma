@@ -30,4 +30,11 @@ INSERT INTO ... VALUES ... -- Insert data into a table
 
 SELECT * FROM tableName;   -- Retrieve/display data from a table
 
-psql -U postgres            -- Start psql and connect as the postgres user
+UPDATE tableName           -- Update existing data
+SET column = value
+WHERE condition;
+
+DELETE FROM tableName      -- Delete existing data
+WHERE condition;
+
+psql -U postgres           -- Start psql and connect as the postgres user
