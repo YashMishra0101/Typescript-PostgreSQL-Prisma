@@ -37,4 +37,8 @@ WHERE condition;
 DELETE FROM tableName      -- Delete existing data
 WHERE condition;
 
+ALTER TABLE tableName     -- rename the column
+RENAME COLUMN 
+oldName TO newName;
+
 psql -U postgres           -- Start psql and connect as the postgres user
