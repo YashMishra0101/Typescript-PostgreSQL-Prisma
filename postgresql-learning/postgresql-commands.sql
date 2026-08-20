@@ -42,3 +42,17 @@ RENAME COLUMN
 oldName TO newName;
 
 psql -U postgres           -- Start psql and connect as the postgres user
+
+database_name=# SELECT column_name ->> 'key_name' FROM table_name;
+--- This query is used to extract a specific value from a JSON/JSONB column as text.
+-- Extract a specific value from a JSON/JSONB column as text
+-- Example: school=# SELECT course_meta ->> 'instructor' FROM course_enrollments;
+
+
+SELECT * FROM table_name WHERE 'value_name' = ANY(key_name);
+
+--- This query is used to check if a specific value exists in an array column.
+
+-- Example: Find all courses where "React" exists in the skills array.
+
+-- Example: SELECT * FROM course_enrollments WHERE 'React' = ANY(skills);
