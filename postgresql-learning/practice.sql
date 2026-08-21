@@ -175,3 +175,13 @@ VALUES
 );
 
 school=# select course_meta ->>'instructor' from course_enrollments;
+
+CREATE TABLE movies(
+    movie_id SERIAL PRIMARY KEY,
+    title VARCHAR(200) NOT NULL,
+    release_year INTEGER
+);
+
+ALTER TABLE MOVIES ADD COLUMN DIRECTOR VARCHAR(100);
+
+ALTER TABLE MOVIES ADD COLUMN BUDGET DECIMAL(12,2);
